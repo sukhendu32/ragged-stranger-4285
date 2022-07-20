@@ -1,0 +1,61 @@
+body{
+    background-color:rgb(239, 239, 239) ;
+}
+
+#head{
+    border: 1px solid rgb(239, 239, 239);
+    width: 80%;
+    height: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+
+#grid{
+    border: 1px solid rgb(239, 239, 239);
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    background-color: white;
+}
+
+#grid>div>img{
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.flag{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid rgb(240, 240, 240);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(82, 82, 82);
+}
+
+.heading{
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#international {
+    margin-bottom: 20px;
+}
+
+#women{
+    margin-bottom: 20px;
+}
+
+.iplImage{
+    width: 20%;
+    height: auto;
+}
