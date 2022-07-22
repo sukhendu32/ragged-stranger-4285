@@ -65,6 +65,10 @@ body{
     color: rgb(99, 98, 98);
 }
 
+#c3>div>h3{
+    font-size: 17px;
+}
+
 #h2{
     margin-top: 30px;
     margin-left: 150px;
@@ -124,7 +128,7 @@ body{
 
 #c5{
     /* border: 1px solid rebeccapurple; */
-    width: 60%;
+    width: 55%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -134,14 +138,26 @@ body{
     margin-left: 150px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
-
+    border-radius: 10px;
+    border: 1px solid gainsboro;
 }
 
 #c5>div>img {
     width: 70%;
     height: auto;
     border-radius: 10px;
-    
+    margin-top: 20px;
+}
+
+#c5>div>p{
+    /* color: rgb(99, 98, 98); */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#c5>div>p:nth-child(3){
+    font-size: small;
+    color: rgb(99, 98, 98);
 }
 
 #v1{
@@ -225,9 +241,100 @@ body{
 }
 
 #v12{
-    background-image: url("/static/images/genre-default-bg.png");
+    background-image: url("	https://www.espncricinfo.com/static/images/genre-default-bg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     border-radius: 10px;
     height: 300px;
+}
+
+#c6>div>img{
+    width: 17%;
+    height: 17%;
+    /* padding: 15px; */
+    border-radius: 10px;
+    /* padding-left: 15px; */
+    /* margin-left: 20px; */
+}
+
+.c7{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* #c6>div>div{
+    margin-left: 13px;
+    margin-right: 13px;
+} */
+
+#sidebox{
+    width: 23%;
+    height: 450px;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 40px;
+    /* padding: 15px; */
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+
+#mainbox{
+    display: flex;
+}
+
+#h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 17px;
+
+}
+
+#sidebox>div>div>div>h5{
+    color: rgb(77, 180, 208);
+    /* border: 1px solid red; */
+    /* padding: 8px; */
+}
+
+#sidebox>div>div>div>p{
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+   margin-top: -1rem;
+   /* border: 1px solid red; */
+}
+
+.c7>div:last-child{
+    /* border: 1px solid red; */
+    margin-left: -4rem;
+}
+
+.c7>div:first-child{
+
+    /* border: 1px solid red; */
+    margin-left: -2rem;
+
+}
+
+.zoom1{
+
+  padding: 2rem;
+
+}
+
+.c7>div>img{
+    width: 35%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 10px;
+
+}
+
+.img2{
+    display: block;
+  margin: auto;    
 }
