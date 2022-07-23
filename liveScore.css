@@ -1,0 +1,281 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#bottomNav {
+    border: 1px solid gray;
+    height: 55px;
+    background-color: #03a9f4;
+    overflow: hidden;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+#navContent {
+
+    width: 96%;
+    margin: auto;
+    height: 100%;
+}
+
+#navBody {
+    /* border: 1px dotted yellow; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#LHSlogo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#LHSlogo>a>img {
+    margin: 0px 40px 0px 0px;
+    width: 162px
+}
+
+#RHSfeatures {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+#optn1 {
+    /* border: 1px solid pink; */
+    width: 650px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.optnList>a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1.25rem;
+    --tw-text-opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#optn2 {
+    /* border: 1px solid green; */
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#optn2>a {
+    display: flex;
+    height: 3rem;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    text-decoration: none;
+}
+
+.anchDiv {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1.25rem;
+    --tw-text-opacity: 1;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.test>.test2 {
+    display: flex;
+}
+
+.iconFrame {
+    cursor: pointer;
+}
+
+#checkScroll {
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid gray; */
+    position: relative;
+    top: 57px;
+    width: 95%;
+    left: 2.5%;
+    /* height: 1000px; */
+    height: auto;
+    bottom: 5px;
+
+}
+
+/* //////////////day 3 CSS///////////// */
+
+
+#currentStatus {
+    /* border: 1px solid gray; */
+    /* height: 200px; */
+    height: auto;
+    width: 1150px;
+    /* overflow: scroll; */
+}
+
+#navOfThreeItems {
+
+    /* border: 1px solid red; */
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 73%;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    z-index: 20;
+    justify-content: space-evenly;
+}
+
+.navItm {
+    /* border: 1px solid sandybrown; */
+    padding: 5px;
+    font-size: larger;
+}
+
+
+
+#rightContent {
+    /* border: 1px solid red; */
+    height: auto;
+    width: 340px;
+}
+
+
+#topImages {
+    /* border: 1px solid red; */
+    /* height: 500px; */
+    height: auto;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#checkItem {
+    display: flex
+}
+
+.topImg {
+    /* border: 1px solid gray; */
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.topImg>div>img {
+    /* border: 1px solid gray; */
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.topImg>div>h4 {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ///////////////////start////////////////////// */
+#added{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+.data {
+    /* border: 4px solid yellow; */
+    position: relative;
+    top: 50px;
+    /* display: grid;
+    grid-template-columns: repeat(2,750px);
+    grid-template-rows: auto; */
+}
+.name {
+    /* border: 4px solid yellow; */
+    position: relative;
+    top: 50px;
+   
+}
+
+.scoreCard {
+    border: 1px solid darkblue;
+    height: 155px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.scoreContent {
+    line-height: 1rem;
+   /* border: 5px solid olive; */
+   margin: auto;
+   width: 500px;
+}
+
+.lineOne {
+    /* border: 1px dotted red; */
+    margin: 5px 0px 0px 5px;
+
+}
+
+.LHS {
+
+    display: flex;
+    gap: 10px;
+}
+
+.nationFlag {
+    width: 25px;
+    height: 25px;
+
+}
+
+.topLine {
+    /* border: 1px solid khaki; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+
+}
+
+.bottomLine {
+    /* border: 1px solid khaki; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.lineThree {
+
+    margin: 15px 10px;
+}
+
+.lineFour {
+    border: 1px solid teal;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    gap: 40px;
+}
+#adImg1{
+    width: 100%;
+    
+}
+
+
+/* //////////////////////end/////////////////////// */
