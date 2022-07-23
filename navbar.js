@@ -268,22 +268,22 @@ function navbar(){
                         <a href="./LiveScore.html">Live Scores</a>
                     </div>
                     <div class="optnList">
-                        <a href="">Series</a>
+                        <a href="./series.html">Series</a>
                     </div>
                     <div class="optnList">
-                        <a href="">Teams</a>
+                        <a href="./teams.html">Teams</a>
                     </div>
                     <div class="optnList">
-                        <a href="">News</a>
+                        <a href="./insidenews.html">News</a>
                     </div>
                     <div class="optnList">
-                        <a href="">Features</a>
+                        <a href="./features.html">Features</a>
                     </div>
                     <div class="optnList">
-                        <a href="">Videos</a>
+                        <a href="./videos.html">Videos</a>
                     </div>
                     <div class="optnList">
-                        <a href="">Stats</a>
+                        <a href="./insidestats.html">Stats</a>
                     </div>
 
 

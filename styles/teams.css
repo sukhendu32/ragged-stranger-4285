@@ -49,6 +49,7 @@ body{
 
 #international {
     margin-bottom: 20px;
+    
 }
 
 #women{
@@ -62,4 +63,13 @@ body{
 
 h4{
     color: black;
+}
+#secondNav{
+   position:fixed;
+   top: 0px;
+   width: 100%;
+  
+}
+#changes{
+    margin-top: 5rem;
 }

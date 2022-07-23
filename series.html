@@ -7,9 +7,11 @@
     <title>Series</title>
     <link rel="stylesheet" href="style1.css" type="text/css">
     <script src="https://kit.fontawesome.com/c5b4771c82.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="./navbar.css">
 </head>
 <body>
-    <header>
+
+    <!-- <header>
         <div id="amd">
             <img src="https://www.espncricinfo.com/static/images/logo.png" alt="Espncricinfo">
             <ul id="A">
@@ -27,7 +29,8 @@
                 <li class="BE"><img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="Search"></li>
             </ul>
         </div>
-    </header>
+    </header> -->
+    <div id="secondNav"></div>
     <div class="A1">
         <h1>FIXTURES AND RESULTS</h1>
     </div>
@@ -181,3 +184,7 @@
     </section>
 </body>
 </html>
+<script type="module">
+    import shortNav from "./shortNav.js"
+   document.getElementById("secondNav").innerHTML=shortNav;
+</script>

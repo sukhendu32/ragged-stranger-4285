@@ -6,7 +6,7 @@
     padding:0;
     margin:0;
 }
-#amd
+/* #amd
 {
     background-color: #03a9f4;
     display: flex;
@@ -14,10 +14,10 @@
     padding-left: 4%;
     margin-top: -0.5%;
     height: 60px;
-    /* margin-right:  40px; */
+   
     position: relative;
-}
-img
+} */
+.img
 {
     padding-left: 87px;
     height: 25px;
@@ -114,6 +114,7 @@ img
     margin-top:20px;
     margin-right: 20px;
     border-radius: 10px 10px 10px 10px;
+    padding-left: 5rem;
     /* border: 1px solid red; */
 }
 .block>div+div{
@@ -217,6 +218,7 @@ img
     margin-right: 30px;
     margin-left:-60px;
     border-radius: 10px;
+    margin-left: 1rem;
 }
 .blog1>div>h4{
     font-size: 14px;
@@ -224,6 +226,11 @@ img
 .blog1>div>p{
     font-size: 10px;
     margin-top: 10px
+}
+#secondNav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 

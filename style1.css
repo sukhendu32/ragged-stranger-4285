@@ -2,22 +2,23 @@
     padding:0;
     margin:0;
  }
-#amd
+/* #amd
 {
+    
     background-color: #03a9f4;
     display: flex;
     align-items: center;
     padding-left: 4%;
     margin-top: -0.5%;
     height: 60px;
-    /* margin-right:  40px; */
-}
+   
+} */
 .div1{
     display:flex;
 }
 img
 {
-    padding-left: 87px;
+    /* padding-left: 87px; */
     height: 25px;
 }
 #A{
@@ -232,4 +233,8 @@ img
     font-size: small;
     margin-bottom:10px;
 }
-  
+  #secondNav{
+      position: fixed;
+      top: 0px;
+      width: 100%;
+  }

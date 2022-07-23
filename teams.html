@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/teams.css">
     <title>Teams</title>
+    <script src="https://kit.fontawesome.com/c5b4771c82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./navbar.css">
 </head>
 <body>
-    <div id="international">
+    <div id="secondNav">
+
+    </div>
+    <div id="changes">
+      <div id="international">
         <div id="head">
             <h4 class="heading">
                 POPULAR INTERNATIONAL TEAMS
@@ -178,5 +184,12 @@
           </div>
           </div>
     </div>
+
+    </div>
+    
 </body>
 </html>
+<script type="module">
+  import shortNav from "./shortNav.js"
+ document.getElementById("secondNav").innerHTML=shortNav;
+</script>

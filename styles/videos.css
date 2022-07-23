@@ -314,3 +314,6 @@ body{
     display: block;
   margin: auto;    
 }
+#secondNav{
+    top: 0px;
+}
