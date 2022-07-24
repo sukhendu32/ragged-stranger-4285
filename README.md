@@ -6,11 +6,12 @@ Cloned Website=https://www.espncricinfo.com/
 TEAM MEMBER = Sukhendu Paul (Team Lead) , Suraj Gundle, Deepanshi Singh , Pushkaraj Lolusare , Shivam Singh Chauhan.
 
 1 .Sukhendu paul-
-     * Worked on front page below Navbar.
-     * Made the functionality of dummy API which showcases india progressive run and the result at the end of the match.
-     * Created the zoom animation effect on every image.
-     * Tried to create the same UI of the orignal website.
-     * Used the same font-size and font-family as given in the orignal website.
+
+ * Worked on front page below Navbar.
+ * Made the functionality of dummy API which showcases india progressive run and the result at the end of the match.
+ * Created the zoom animation effect on every image.
+ * Tried to create the same UI of the orignal website.                                               
+  * Used the same font-size and font-family as given in the orignal website.
 
  2 .Deepanshi Singh-
 
