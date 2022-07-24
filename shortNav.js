@@ -26,7 +26,7 @@ function shortNav() {
                         <a href="./insidenews.html">News</a>
                     </div>
                     <div class="optnList">
-                        <a href="">Features</a>
+                        <a href="./features.html">Features</a>
                     </div>
                     <div class="optnList">
                         <a href="./videos.html">Videos</a>
