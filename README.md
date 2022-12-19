@@ -31,9 +31,9 @@ TEAM MEMBER = Sukhendu Paul (Team Lead) , Suraj Gundle, Deepanshi Singh , Pushka
 
  4 . Pushkaraj Lolusare-
 
- I have worked on Series and Features page. In series page user can see all the recent and upcomming series, domestic and international tournaments of both mens and women categories. In the features page you can get all the recent sports related features in detailed, also the most read blocks
-
-
+ * I have worked on Series and Features page. 
+ * In series page user can see all the recent and upcomming series, domestic and international tournaments of both mens and women categories. 
+ * In the features page you can get all the recent sports related features in detailed, also the most read blocks
 
  5 . Suraj Gundle-
   * worked on Navbar and Live score page
